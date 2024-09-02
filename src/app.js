@@ -19,4 +19,10 @@ app.use(cookieParser())
 // initially express was unable to take json data for that we use bodyparser
 // checking between client and server- middleware
 
+// import routes
+import userRouter from './routes/user.routes.js'
+
+// route declaration
+app.use("/api/v1/users",userRouter)
+
 export { app }
