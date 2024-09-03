@@ -10,3 +10,5 @@ class apiResponse {
         this.success = statusCode
     }
 }
+
+export { apiResponse }
